@@ -1,5 +1,5 @@
 # Headlines
 
-Hello, My name is Bayu Ardi Putranto 
+Hello, My name is Bayu Ardi Putranto and
 I am Python programming language use
 r 
