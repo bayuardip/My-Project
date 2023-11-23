@@ -1,4 +1,5 @@
-# Headlines
+# Hi there 👋
 
-Hello, My name is Bayu Ardi Putranto and
-I am Python programming language user 
+I'm Bayu !
+
+I'm a person who loves data and also  Python programming language user 
