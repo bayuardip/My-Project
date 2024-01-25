@@ -1,5 +1,7 @@
-package = ["yfinance","pandas","numpy","tradingview_ta","pickle5"]
 import subprocess
+import pip
+
+package = ["yfinance","pandas","numpy","tradingview_ta","pickle5"]
 
 def install(name):
     subprocess.call([sys.executable, '-m', 'pip', 'install', name])
