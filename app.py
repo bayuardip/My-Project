@@ -1,5 +1,5 @@
 import streamlit as st 
-import yfinance as yf ; print(yf.__version__)
+import yfinance as yf 
 import pandas as pd
 import numpy as np 
 from tradingview_ta import TA_Handler, Interval, Exchange
