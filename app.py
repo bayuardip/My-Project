@@ -1,19 +1,3 @@
-import subprocess
-import pip
-
-package = ["yfinance","pandas","numpy","tradingview_ta","pickle5"]
-
-def install(package):
-    if hasattr(pip, 'main'):
-        pip.main(['install', package])
-    else:
-        pip._internal.main(['install', package])
-
-for item in package : 
-    if __name__ == '__main__':
-        install(item)
-
-
 import streamlit as st 
 import yfinance as yf 
 import pandas as pd
