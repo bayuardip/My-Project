@@ -1,11 +1,3 @@
-import streamlit as st 
-import yfinance as yf 
-import pandas as pd
-import numpy as np 
-from tradingview_ta import TA_Handler, Interval, Exchange
-import tradingview_ta
-import pickle
-
 package = ["yfinance","pandas","numpy","tradingview_ta","pickle5"]
 import subprocess
 
@@ -14,7 +6,14 @@ def install(name):
 
 for item in package : 
     install(item)
-    
+import streamlit as st 
+import yfinance as yf 
+import pandas as pd
+import numpy as np 
+from tradingview_ta import TA_Handler, Interval, Exchange
+import tradingview_ta
+import pickle
+
 option = "ASII"
 period = "1y"
 
