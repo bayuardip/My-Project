@@ -6,7 +6,15 @@ from tradingview_ta import TA_Handler, Interval, Exchange
 import tradingview_ta
 import pickle
 
+package = ["yfinance","pandas","numpy","tradingview_ta","pickle5"]
+import subprocess
 
+def install(name):
+    subprocess.call([sys.executable, '-m', 'pip', 'install', name])
+
+for item in package : 
+    install(item)
+    
 option = "ASII"
 period = "1y"
 
