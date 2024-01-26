@@ -1,5 +1,0 @@
-pandas-dev
-yfinance-dev
-numpy-dev
-tradingview_ta-dev
-pickle5-dev
