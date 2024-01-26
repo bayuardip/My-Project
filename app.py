@@ -86,7 +86,7 @@
 #     col2.metric("Neutral",(analysis.summary["NEUTRAL"]))
 #     col3.metric("Sell",(analysis.summary["SELL"]))
 
-mport streamlit as st
+import streamlit as st
 import yfinance as yf
 import pandas as pd
 import numpy as np
