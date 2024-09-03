@@ -1,5 +1,5 @@
-# Hi there, I'm Bayu !
- 👋
+# Hi there, I'm Bayu ! 👋
+
 
 - 🌱 I’m learning advanced financial modeling and automation with Python
 - 💬 Ask me about data science, machine learning, and finance
